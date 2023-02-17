@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment for module 18.8: HTML Forms</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Send me an email!</legend>
+                <div class="name">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" placeholder="Enter your full name..." />
+                </div>
+                <div class="email-address">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="Enter your email address..." />
+                </div>
+                <div class="message">
+                    <label for="email-body">Your Message:</label>
+                    <textarea id="email-message" name="email-body" autofocus="on" required maxlength="200"
+                        placeholder="Type your message here..."></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+
+</html>

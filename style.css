@@ -1,0 +1,30 @@
+main {
+    background-color: rgb(6, 6, 48);
+    color: white;
+}
+
+fieldset div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-bottom: 25px;
+}
+
+.name input {
+    width: 100%;
+}
+
+.email-address {
+  margin-bottom: 25px;
+}
+
+.email-address input {
+    width: 100%;
+}
+
+.message textarea {
+    width: 100%;
+    height: 100px;
+}
